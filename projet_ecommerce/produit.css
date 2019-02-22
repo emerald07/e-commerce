@@ -1,0 +1,197 @@
+/* position - float - display : block inline*/
+h1 {
+
+  font-size: 22px; }
+
+h2 {
+
+  font-size: 17px; }
+
+div {
+
+  margin: 0; }
+
+body {
+
+  background-color: #fff;
+  max-width: 100vw; }
+
+
+.i1 { 
+
+	margin: auto; 
+	background: url(img/img-02.png) no-repeat scroll 7px 7px;
+    padding-left: 30px;
+}
+
+
+/* haut */
+
+.header-bottom {
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-top: 20px; 
+
+}
+
+
+.header-bottom li {
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 0.5em; 
+}
+
+
+.header2
+
+ {
+ 	margin-bottom: 30px;
+ 	margin-right: 10%;
+    margin-left: 10%; 
+ }
+
+ .h-right {
+
+ 	position: absolute;
+ 	top: 5;
+ 	right: 8;
+ }
+
+
+/* corps */
+
+
+.main-left {
+
+  width: auto;
+  height: auto;
+  float: left;
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid grey; 
+
+
+}
+
+
+.main-left table {
+
+	background-clip: padding-box;
+}
+
+.main-left .th2 {
+
+	background-color: grey;
+	padding: 5px;
+	
+}
+
+.main-left .th1 {
+
+	margin: auto;
+	padding: 5px;
+	
+}
+
+
+.main-left td {
+
+    padding: 15;
+
+}
+
+.main {
+
+  margin-right: 10%;
+  margin-left: 10%; 
+}
+
+
+.main-right-top {
+
+	margin-bottom: 15;
+
+}
+
+
+.x2 {
+
+	position: relative;
+	left: 500;
+	margin-top: 15;
+
+}
+
+.main-right-bottom {
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap; 
+  clear: left;
+  justify-content: flex-start;;
+  margin-top: 15;
+
+
+}
+
+/* bas */
+footer {
+
+  width: 80%;
+  margin: 0 auto;
+  float: left;
+ }
+
+.f1 {
+   
+    clear: both;
+    display: flex;
+	justify-content: space-between;
+    margin-top: 55px;
+
+}
+
+.f2 { 
+
+    display: flex;
+    clear: both;
+	
+}
+
+.f3 {
+
+	display: flex;
+	clear: both;
+}
+
+.pagination{
+
+	margin-top: 35;
+	margin-bottom:15;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.pagination .p2 {
+
+	border: 1px solid grey;
+	border-radius: 100%;
+	padding: 5px;
+	margin-right: 7px;
+}
+
+
+.p1 {
+
+	border: 1px solid grey;
+	border-radius: 15%;
+	padding: 5px;
+	margin-left: 5: 
+}
+
+
+
